@@ -12,7 +12,4 @@ def access():
 
     api = tweepy.API(auth)
 
-    user = api.me()
-    print(user.name)
-
-access()
+    return api
